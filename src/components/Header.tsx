@@ -11,6 +11,7 @@ const Header = () => {
             <Nav.Link href="/login">Bejelentkezés</Nav.Link>
             <Nav.Link href="/cart">Kosár</Nav.Link>
             <Nav.Link href="/add-pizza">Hozzáadás</Nav.Link>
+            <Nav.Link href="/rendelesek">Rendelések</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -10,6 +10,7 @@ import CartPage from "./pages/CartPage";
 import OnePizza from "./pages/OnePizza";
 import NewPizza from "./pages/NewPizza";
 import EditPizza from "./pages/EditPizza";
+import OrdersPage from "./pages/OrdersPage";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/edit-pizza/:id" element={<EditPizza />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/rendelesek" element={<OrdersPage />} />
       </Routes>
     </BrowserRouter>
     <ToastContainer theme="colored" />
